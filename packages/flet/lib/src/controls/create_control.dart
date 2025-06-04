@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:flet/src/controls/texty.dart';
 import 'package:flet/src/utils/badge.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
@@ -227,6 +228,13 @@ Widget createWidget(
           control: controlView.control,
           children: controlView.children,
           dispatch: controlView.dispatch,
+          backend: backend);
+    case "texty":
+      return TextyControl(
+          key: key,
+          parent: parent,
+          control: controlView.control,
+          parentDisabled: parentDisabled,
           backend: backend);
     case "text":
       return TextControl(
