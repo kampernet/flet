@@ -10,3 +10,4 @@ from flet.core.canvas.points import PointMode, Points
 from flet.core.canvas.rect import Rect
 from flet.core.canvas.shadow import Shadow
 from flet.core.canvas.text import Text
+from flet.core.canvas.texty import Texty

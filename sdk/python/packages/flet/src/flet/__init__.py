@@ -311,6 +311,7 @@ from flet.core.switch import Switch
 from flet.core.tabs import Tab, Tabs
 from flet.core.template_route import TemplateRoute
 from flet.core.text import Text, TextAffinity, TextSelection
+from flet.core.texty import Texty
 from flet.core.text_button import TextButton
 from flet.core.text_span import TextSpan
 from flet.core.text_style import (

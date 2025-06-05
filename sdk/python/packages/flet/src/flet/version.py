@@ -8,7 +8,7 @@ import flet
 from flet.utils import is_mobile, is_windows, which
 
 # will be replaced by CI
-version = ""
+version = "0.27.0"
 
 
 def update_version():
